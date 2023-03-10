@@ -1,5 +1,7 @@
 #!/bin/bash
-
-echo "After Install"
-
+set -e
+ 
+cd ~/app
+docker build -t app1:latest .
+ 
 exit 0
